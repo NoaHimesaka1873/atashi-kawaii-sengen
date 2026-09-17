@@ -97,13 +97,10 @@
             <div class="relative mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:py-24">
                 <div class="flex flex-col-reverse items-start gap-10 lg:flex-row lg:items-center lg:gap-16">
                     <div class="max-w-2xl">
-                        <p class="chip">
-                            <svg class="size-3.5" aria-hidden="true"><use href="#i-map-pin"/></svg>
-                            Gyeonggi, South Korea
-                            <span class="text-line-strong" aria-hidden="true">·</span>
-                            <svg class="size-3.5" aria-hidden="true"><use href="#i-terminal"/></svg>
-                            <code class="font-mono">/home/noahimesaka</code>
-                        </p>
+                        <div class="flex flex-wrap items-center gap-2">
+                            <p class="chip"><svg class="size-3.5" aria-hidden="true"><use href="#i-map-pin"/></svg> Gyeonggi, South Korea</p>
+                            <p class="chip"><svg class="size-3.5" aria-hidden="true"><use href="#i-terminal"/></svg> <code class="font-mono">/home/noahimesaka</code></p>
+                        </div>
                         <h1 class="mt-5 text-4xl font-bold tracking-tight text-ink sm:text-5xl lg:text-6xl">
                             Hello World<br>
                             from <span class="text-accent-strong">Korea</span>!
@@ -176,9 +173,9 @@
                         </span>
                         <h3 class="mt-4 font-semibold text-ink">Student, with paperwork</h3>
                         <p class="mt-2 text-sm/relaxed">
-                            English Interpretation &amp; Translation at Hankuk University of Foreign
-                            Studies. I used to call myself an &ldquo;Amateur Translator&rdquo; as a
-                            vibe. It is now an actual degree programme!
+                            English for International Conferences and Communication at Hankuk
+                            University of Foreign Studies. I used to call myself an &ldquo;Amateur
+                            Translator&rdquo; as a vibe. It is now an actual degree programme!
                         </p>
                         <p class="chip mt-4">
                             <svg class="size-3" aria-hidden="true"><use href="#i-languages"/></svg>
@@ -210,12 +207,12 @@
                             I wrote a Roon plugin for my desktop shell and an MPRIS
                             bridge for my media keys, plus a
                             <a class="font-medium text-accent-strong hover:underline" href="https://gist.github.com/NoaHimesaka1873/8ef2396d5296765c37170e54c4ab1745">guide
-                            to running TIDAL Connect on a Gustard R/A26</a>. The most expensive hobby
-                            on this page, and the one I regret the least.
+                            to running TIDAL Connect on a Gustard R/A26</a>. Easily the most expensive
+                            hobby on this page. I regret precisely none of it.
                         </p>
                         <p class="chip mt-4">
                             <svg class="size-3" aria-hidden="true"><use href="#i-music"/></svg>
-                            Roon · DACs · regret
+                            Roon · DACs · no regrets
                         </p>
                     </div>
                 </div>
@@ -229,134 +226,23 @@
                 <p class="mt-2 max-w-2xl">
                     The
                     <a class="font-medium text-accent-strong hover:underline" href="https://funami.tech">YuruVerse</a>:
-                    self-hosted services since 2022, all named after YuruYuri, running on servers named after
-                    its student council. Nanamori-Chu☆Seitokai does the heavy lifting. Oomuro-ke next door
-                    handles DNS and the Matrix homeserver. Yui is technically in charge! I just do the
-                    restarts. Everything lives in my house in Gyeonggi except the package mirror, which escaped
-                    to Oracle Cloud and sends no postcards.
+                    self-hosted services since 2022, every one of them named after YuruYuri. Yui is
+                    technically in charge! I just do the restarts. It all runs from my house in Gyeonggi, except
+                    the package mirror, which escaped to Oracle Cloud and sends no postcards.
                 </p>
 
-                <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                    <a href="https://toot.funami.tech" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-mastodon"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">YuruToot</h3>
-                                <p class="truncate font-mono text-xs text-faint">toot.funami.tech</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            My Mastodon instance, running a glitch-soc fork I maintain called Glitch-YRYR. Five
-                            and a half thousand users and nearly 290,000 posts! Registration is open, but every
-                            signup needs my approval, and I have homework.
+                <div class="card mt-8 flex flex-col gap-6 p-8 md:flex-row md:items-center md:justify-between">
+                    <div class="max-w-xl">
+                        <h3 class="font-semibold text-ink">It all lives at funami.tech</h3>
+                        <p class="mt-2 text-sm/relaxed">
+                            Chat, the fediverse instances, the Minecraft server and the package mirror each have
+                            their own page over there, kept more up to date than anything I would write here.
                         </p>
-                        <p class="chip mt-auto pt-1 self-start">Mastodon (my fork)</p>
+                    </div>
+                    <a href="https://funami.tech" class="btn-primary flex-none">
+                        <svg class="size-4" aria-hidden="true"><use href="#i-globe"/></svg>
+                        Visit the YuruVerse
                     </a>
-
-                    <a href="https://chat.funami.tech" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-message-circle"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">YuruChat</h3>
-                                <p class="truncate font-mono text-xs text-faint">chat.funami.tech</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            A Matrix homeserver (Synapse) with Element bolted on. IDs look like
-                            <code class="font-mono text-[13px] text-ink">@you:funami.tech</code>.
-                            Registration is closed &mdash; the polite way of saying you have to ask me.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Synapse + Element</p>
-                    </a>
-
-                    <a href="https://lemmy.funami.tech" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-users"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">YuruLemmy</h3>
-                                <p class="truncate font-mono text-xs text-faint">lemmy.funami.tech</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            Self-claimed first Lemmy instance in South Korea, stood up during the great Reddit
-                            migration of June 2023! Registration requires an application, and yes, I do read them.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Lemmy</p>
-                    </a>
-
-                    <a href="https://bsky.funami.tech" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-bluesky"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">Bluesky PDS</h3>
-                                <p class="truncate font-mono text-xs text-faint">bsky.funami.tech</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            My own AT Protocol Personal Data Server. My Bluesky account
-                            (<code class="font-mono text-[13px] text-ink">@noa.codes</code>, this domain!) is hosted
-                            on it, so my posts live in my house. If the power goes out, so do my posts.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">AT Protocol PDS</p>
-                    </a>
-
-                    <a href="https://mc.funami.tech" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-box"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">YuruMC</h3>
-                                <p class="truncate font-mono text-xs text-faint">mc.funami.tech</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            The Minecraft server. Semi-vanilla survival plus two modded servers, and rules so relaxed
-                            that even hacked clients are allowed! Go build something silly!
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Minecraft</p>
-                    </a>
-
-                    <a href="https://mirror.funami.tech" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-hard-drive"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">YuruMirror</h3>
-                                <p class="truncate font-mono text-xs text-faint">mirror.funami.tech</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            Package mirrors for Arch, Artix, CachyOS, EndeavourOS and Fyra Labs, plus my own repos.
-                            The one service not in my house: Oracle Cloud in Seoul, 4 Gbps, because
-                            <code class="font-mono text-[13px] text-ink">pacman -Syu</code> needs a faster uplink than
-                            I've got.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">nginx · Oracle Cloud Seoul</p>
-                    </a>
-                </div>
-
-                <div class="card mt-4 flex flex-col gap-4 p-5 sm:flex-row sm:items-center">
-                    <span class="flex size-10 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                        <svg class="size-5" aria-hidden="true"><use href="#i-server"/></svg>
-                    </span>
-                    <p class="text-sm/relaxed">
-                        <strong class="font-semibold text-ink">&hellip;and one server that isn't mine.</strong> I also run
-                        <a class="font-medium text-accent-strong hover:underline" href="https://chat.t2linux.org">chat.t2linux.org</a>,
-                        the Matrix homeserver for the t2linux project. It's one of five things next to my name on
-                        <a class="font-medium text-accent-strong hover:underline" href="https://github.com/t2linux/wiki/blob/master/docs/notable-contributors.md">their
-                        notable-contributors list</a>, and since it runs Continuwuity, I now have two Matrix
-                        homeservers on two different codebases.
-                    </p>
                 </div>
             </div>
         </section>
@@ -374,191 +260,27 @@
                     <code class="rounded bg-inset px-1.5 py-0.5 font-mono text-[13px] text-accent-strong">apple-t2-audio-config</code>
                     and
                     <code class="rounded bg-inset px-1.5 py-0.5 font-mono text-[13px] text-accent-strong">t2fanrd</code>.
-                    I build all three in my own pacman repo and serve them off my own mirror (though only the
-                    kernel is actually my code).
+                    I build all three in my own pacman repo and serve them off my own mirror, though only the
+                    kernel is actually my code; the fan daemon is
+                    <a class="font-medium text-accent-strong hover:underline" href="https://github.com/GnomedDev/T2FanRD">GnomedDev's
+                    T2FanRD</a>. I also run the project's Matrix homeserver at
+                    <a class="font-medium text-accent-strong hover:underline" href="https://chat.t2linux.org">chat.t2linux.org</a>.
                 </p>
 
-                <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                    <a href="https://github.com/NoaHimesaka1873/linux-t2-arch" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-cpu"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">linux-t2-arch</h3>
-                                <p class="truncate font-mono text-xs text-faint">the kernel itself</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            The Arch package for a Linux kernel with bleeding-edge T2 Mac support. Its README says
-                            <em>&ldquo;under new management, with 100% more manga and weebness&rdquo;</em>. The new
-                            management is me.
+                <div class="card mt-8 flex flex-col gap-6 p-8 md:flex-row md:items-center md:justify-between">
+                    <div class="max-w-xl">
+                        <h3 class="font-semibold text-ink">The rest is on GitHub</h3>
+                        <p class="mt-2 text-sm/relaxed">
+                            Kernel packages, the T2 audio config, a pacstrap frontend, a Rust framebuffer server for
+                            reMarkable tablets, and whatever I broke last week. The repos say more than a
+                            hand-written list would, and they stay current on their own.
                         </p>
-                        <p class="chip mt-auto pt-1 self-start">tracks mainline, ships weeb</p>
-                    </a>
-
-                    <a href="https://mirror.funami.tech/arch-mact2/" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-package"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">arch-mact2</h3>
-                                <p class="truncate font-mono text-xs text-faint">[arch-mact2]</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            The pacman repository the t2linux wiki tells every Arch-on-a-Mac user to add
-                            to their <code class="font-mono text-[13px] text-ink">pacman.conf</code>.
-                            I build 36 packages and serve them off my mirror. The database is signed; the
-                            packages themselves are on the honour system, which is why the wiki tells you to set
-                            <code class="font-mono text-[13px] text-ink">SigLevel = Never</code>. I'm one student
-                            with one build machine, not the AUR.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">pacman repo · on my mirror</p>
-                    </a>
-
-                    <a href="https://github.com/NoaHimesaka1873/t2fand" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-fan"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">t2fand</h3>
-                                <p class="truncate font-mono text-xs text-faint">the original, in Python</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            My daemon for controlling fans on T2 Macs. Set your temperatures, pick a curve
-                            (linear, exponential or logarithmic) and your laptop stops trying to cook itself.
-                            Some T2 Macs run their fans on their own; the ones that don't have nothing but this
-                            between them and a very expensive griddle. GnomedDev later rewrote it in Rust as
-                            t2fanrd, and I now package that for everyone instead.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Python &middot; superseded by t2fanrd</p>
-                    </a>
-
-                    <a href="https://github.com/NoaHimesaka1873/apple-bcm-firmware" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-wifi"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">apple-bcm-firmware</h3>
-                                <p class="truncate font-mono text-xs text-faint">Wi-Fi &amp; Bluetooth</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            Packages the Wi-Fi and Bluetooth firmware out of macOS Big Sur so T2 and M1 Macs have
-                            networking under Linux.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Broadcom firmware packaging</p>
-                    </a>
-
-                    <a href="https://github.com/NoaHimesaka1873/t2strap" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-terminal"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">t2strap</h3>
-                                <p class="truncate font-mono text-xs text-faint">the easier path</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            A pacstrap frontend for installing Arch on T2 Macs. Nobody has ever typed that
-                            twelve-package pacstrap line by hand, and this exists so nobody ever has to.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Python</p>
-                    </a>
-
-                    <a href="https://github.com/NoaHimesaka1873/linux-xanmod-edge-t2" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-laptop"/></svg>
-                            </span>
-                            <div class="min-w-0">
-                                <h3 class="font-semibold text-ink group-hover:text-accent-strong">linux-xanmod-edge-t2</h3>
-                                <p class="truncate font-mono text-xs text-faint">the spicy kernel</p>
-                            </div>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            Xanmod with the T2 patches on top.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">one kernel was not enough</p>
+                    </div>
+                    <a href="https://github.com/NoaHimesaka1873" class="btn-primary flex-none">
+                        <svg class="size-4" aria-hidden="true"><use href="#i-github"/></svg>
+                        NoaHimesaka1873 on GitHub
                     </a>
                 </div>
-
-                <h3 class="section-title mt-14 text-xl">Side quests <span class="font-normal text-faint">(things nobody asked for)</span></h3>
-                <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                    <a href="https://mirror.funami.tech/koreader-nightly/" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-book-open"/></svg>
-                            </span>
-                            <h3 class="min-w-0 font-semibold text-ink group-hover:text-accent-strong">koreader-nightly-vellum</h3>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            Every day a robot packages the newest KOReader nightly for reMarkable tablets across
-                            both architectures (aarch64 for the Paper Pro family, armv7 for the older ones), signs
-                            it and puts it on my mirror. It keeps the last ten builds per architecture, so my
-                            e-reader stays on the bleeding edge and the older models can too.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Vellum repo</p>
-                    </a>
-
-                    <a href="https://github.com/NoaHimesaka1873/dms-plugin-roon" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-music"/></svg>
-                            </span>
-                            <h3 class="min-w-0 font-semibold text-ink group-hover:text-accent-strong">dms-plugin-roon</h3>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            A DankMaterialShell plugin that puts Roon on my desktop: now-playing pill in the bar,
-                            album art in the popout, library search from the launcher.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">QML</p>
-                    </a>
-
-                    <a href="https://github.com/NoaHimesaka1873/roon-extension-mpris" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-headphones"/></svg>
-                            </span>
-                            <h3 class="min-w-0 font-semibold text-ink group-hover:text-accent-strong">roon-extension-mpris</h3>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            Bridges Roon to MPRIS. My media keys finally have a job!
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Node.js</p>
-                    </a>
-
-                    <a href="https://github.com/NoaHimesaka1873/mc-matterbridge-forge" class="service-card card group flex flex-col p-5">
-                        <div class="flex items-center gap-3">
-                            <span class="flex size-9 flex-none items-center justify-center rounded-xl bg-accent-soft text-accent-strong">
-                                <svg class="size-5" aria-hidden="true"><use href="#i-box"/></svg>
-                            </span>
-                            <h3 class="min-w-0 font-semibold text-ink group-hover:text-accent-strong">mc-matterbridge-forge</h3>
-                        </div>
-                        <p class="mt-3 text-sm/relaxed">
-                            A Forge mod piping Minecraft into Matterbridge: joins, deaths, advancements.
-                            YuruMC and YuruChat gossip about each other, and my phone pays the price.
-                        </p>
-                        <p class="chip mt-auto pt-1 self-start">Java · MC 1.20.1</p>
-                    </a>
-                </div>
-
-                <p class="mt-6 text-sm text-faint">
-                    More on GitHub:
-                    <a class="font-medium text-accent-strong hover:underline" href="https://github.com/NoaHimesaka1873?tab=repositories">all
-                    my repos</a> (including
-                    <a class="font-medium text-accent-strong hover:underline" href="https://github.com/NoaHimesaka1873/qtfblight">qtfblight</a>,
-                    a Rust QTFB server for reMarkable tablets — what happens when an e-reader and a compiler share a
-                    desk) and the
-                    <a class="font-medium text-accent-strong hover:underline" href="https://github.com/funamitech">funamitech
-                    org</a> where the YuruVerse lives.
-                </p>
             </div>
         </section>
 
