@@ -74,7 +74,7 @@ noa.codes is served from nginx.
 
 ## Editing the page
 
-Everything is in `templates/index.html`, in four sections: hero, `#about`,
+Everything is in `templates/index.html`, in five sections: hero, `#about`,
 `#services` (what she runs), `#projects` (what she builds) and `#elsewhere`
 (where to find her). Links and counts in there are facts — check them before
 changing them:
