@@ -92,7 +92,7 @@ changing them:
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+GPL-3.0 — see [LICENSE](LICENSE). Relicensed from MIT in September 2026 to match the rest of the YuruVerse sites.
 
 ---
 

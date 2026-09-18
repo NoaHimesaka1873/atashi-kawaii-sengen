@@ -1,7 +1,7 @@
 {
   "name": "atashi-kawaii-sengen",
   "version": "2.0.0",
-  "description": "noa.codes — Noa Himesaka's personal homepage",
+  "description": "noa.codes \u2014 Noa Himesaka's personal homepage",
   "type": "module",
   "scripts": {
     "dev": "node dev/server.js",
@@ -24,7 +24,10 @@
     "extends": "eslint:recommended",
     "overrides": [
       {
-        "files": ["build.js", "dev/**/*.js"],
+        "files": [
+          "build.js",
+          "dev/**/*.js"
+        ],
         "env": {
           "node": true,
           "browser": false
@@ -55,5 +58,6 @@
       ],
       "no-console": "off"
     }
-  }
+  },
+  "license": "GPL-3.0-or-later"
 }
